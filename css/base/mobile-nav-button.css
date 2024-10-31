@@ -1,0 +1,25 @@
+.mobile-nav-btn {
+	/* Reset for button */
+	cursor: pointer;
+	padding: 0;
+	border: none;
+	background: transparent;
+
+	/* Nav icon styles*/
+	/* position: absolute;
+	top: 3%;
+	right: 6%;
+	z-index: 999; */
+	width: 40px;
+	height: 40px;
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+@media (max-width: 940px){
+    .mobile-nav-btn:not(.active) {
+        display: flex;
+    }
+}

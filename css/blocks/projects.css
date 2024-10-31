@@ -1,0 +1,88 @@
+.projects {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1920px;
+    padding-top: 160px;
+    padding-left: 70px;
+}
+
+.projects-title {
+    position: absolute;
+    top: 160px;
+    left: 116px;
+    z-index: 3;
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 220px;
+    font-size: clamp(3.75rem, 0.787rem + 14.81vw, 13.75rem);
+
+    line-height: 110%;
+    background: linear-gradient(270deg, #fff 0%, #f4f4f4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projects-wrapper {
+    margin-bottom: 20px;
+
+    position: relative;
+    padding-top: 180px;
+
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.projects-slider {
+    margin-bottom: 20px;
+
+    display: flex;
+    gap: 40px;
+
+    width: 2780px;
+}
+
+.projects-slider > * {flex: 1;flex-shrink: 0;}
+
+.project-navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 19px;
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+    background-color: #fff;
+
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover {
+    background-color: #dfdfdf;
+}
+
+.btn img {
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover img {
+    transform: scale(1.15);
+}
+
+@media (max-width: 1400px) {
+    .projects-title {left: 70px;}
+}
+
+@media (max-width: 750px) {
+    .projects {
+        padding-top: 80px;
+        padding-inline: 20px;
+    }
+
+    .projects-title {top: 70px;}
+}
+

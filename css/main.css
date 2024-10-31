@@ -1,0 +1,25 @@
+/* Fonts */
+@import './../fonts/gilroy/gilroy.css';
+@import './../fonts/inter/inter.css';
+
+/* =============  Base ================= */
+@import './base/reset.css';
+@import './base/vars.css';
+
+@import './base/base.css';
+@import './base/mobile-nav-button.css';
+@import './base/mobile-nav.css';
+/* @import './base/buttons.css';*/
+
+
+/* =============  Blocks ================= */
+@import './blocks/header.css';
+@import './blocks/nav.css';
+@import './blocks/projects.css';
+@import './blocks/project.css';
+@import './blocks/promo.css';
+
+/* =============  Media ================= */
+/* @import './base/media.css'; */
+
+

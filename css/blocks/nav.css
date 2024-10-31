@@ -1,0 +1,73 @@
+.nav {
+    min-width: 560px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    transition: all 0.3s ease-in;
+}
+
+.nav-item:hover {opacity: 0.8;}
+
+.nav-link-projects,
+.nav-link-cooperation {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-link-cooperation {
+    gap: 23px;
+}
+
+.nav-link-projects::after,
+.nav-link-cooperation::after {
+    content: url('./../../img/ui/arrow-down.svg');
+    width: 8px;
+    padding-bottom: 3px;
+}
+
+.projects-sub-nav {display: none;}
+
+.nav-link {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.mobile-nav-tools {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.mobile-close-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 940px) {
+    .nav {display: none;}
+
+    .nav-list {
+        flex-direction: column;
+        font-size: 22px;
+        gap: 30px;
+    }
+}

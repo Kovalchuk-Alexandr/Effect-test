@@ -1,0 +1,84 @@
+.promo {
+    margin: 0 auto;
+    position: relative;
+
+    padding-top: 447px;
+
+    max-width: 1920px;
+
+}
+
+.promo-decore {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 70%;
+    /* background-color: var(--page-bg); */
+    background-image: url('./../../img/promo/curves.png');
+    background-position: center bottom; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.promo-content {
+    padding-inline: 15px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translatex(-50%);
+
+    font-family: var(--font-family);
+    font-weight: 700;
+}
+
+.promo-desc {
+    margin: 0 auto;
+    max-width: 945px;
+    /* width: 100%; */
+    margin-bottom: 148px;
+    margin-bottom: clamp(1.875rem, -0.416rem + 11.46vw, 9.25rem);
+    padding-inline: 10px;
+    font-size: 42px;
+    font-size: clamp(1.25rem, 0.823rem + 2.14vw, 2.625rem);
+    line-height: 95%;
+    color: var(--text-color);
+}
+
+.promo-desc span {
+    color: #2c2c2c;
+}
+
+.promo__title {
+    width: 100%;
+    font-size: 140px;
+    font-size: clamp(2.5rem, 0.558rem + 9.71vw, 8.75rem);
+
+    line-height: 110%;
+    background: linear-gradient(270deg, #fff 0%, #f4f4f4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    white-space: nowrap;
+    
+}
+
+.promo-bg {
+    aspect-ratio: 1.78;
+    /* height: 1080px;
+    height: 100vh; */
+
+    background-color: #999;
+    background-image: url('./../../img/promo/promo-bg.jpg');
+    background-position: center center; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 600px) {
+    .promo-content {width: 100%;}
+    .promo__title {
+        white-space: normal;
+    }
+}
