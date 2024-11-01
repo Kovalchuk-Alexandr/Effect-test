@@ -1,0 +1,34 @@
+.sub-nav {
+    /* position: relative; */
+    display: grid;
+    gap: 16px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #3e4343;
+    
+    font-size: 16px;
+    /* background-color: var(--menu-bg); */
+    /* color: var(--text-color); */
+    /* -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
+    /* z-index: 6; */
+}
+
+.sub-nav:hover {
+    /* -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
+}
+
+.sub-nav-link {
+    color: var(--text-color);
+    transition: color 0.3s ease-in;
+}
+
+.sub-nav-link:hover {
+    color: var(--text-muted);
+}
+
+.sub-nav__item {
+}
+.sub-nav__link {
+}

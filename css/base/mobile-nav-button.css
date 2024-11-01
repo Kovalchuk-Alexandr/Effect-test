@@ -3,7 +3,8 @@
 	cursor: pointer;
 	padding: 0;
 	border: none;
-	background: transparent;
+	/* background: transparent; */
+	backdrop-filter: blur(10px);
 
 	/* Nav icon styles*/
 	/* position: absolute;
@@ -12,6 +13,7 @@
 	z-index: 999; */
 	width: 40px;
 	height: 40px;
+	border-radius: 50%;
 	/* display: flex; */
 	justify-content: center;
 	align-items: center;

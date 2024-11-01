@@ -15,6 +15,7 @@
 /* =============  Blocks ================= */
 @import './blocks/header.css';
 @import './blocks/nav.css';
+@import './blocks/sub-nav.css';
 @import './blocks/projects.css';
 @import './blocks/project.css';
 @import './blocks/promo.css';
